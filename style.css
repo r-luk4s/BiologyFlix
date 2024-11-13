@@ -1,28 +1,33 @@
 body {
-    color: rgb(255, 20, 147);
-    background: black;
+    color: rgb(0, 157, 113);
+    background: white;
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px rgb(255, 20, 147);
+    border-bottom: solid 2px rgb(0, 157, 113);
     padding: 20px;
     font-size: 32px;
-    color: rgb(255, 20, 147);
+    color: rgb(5, 86, 63) !important;
 }
 
 .chamada {
-    background: rgba(58, 8, 112, 0.706);
+    background: url('https://www.icegif.com/wp-content/uploads/2022/01/icegif-1374.gif') no-repeat center center;
+    background-size: cover;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-}
+    align-items: flex-start;
+    gap: 250px;
+    position: relative;
+}   
 
 .chamada-texto {
-    margin-right: 5%;
+    color: white;
+    position: relative
 }
 
 h1 {
@@ -52,9 +57,9 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid rgb(102, 0, 128);
+    border: 3px solid rgb(0, 157, 113);
 }
 
 .categoria h2 {
-    color: rgb(255, 20, 147);
+    color: rgb(0, 157, 113);
 }
